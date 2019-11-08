@@ -1,0 +1,55 @@
+<!--
+ =========================================================
+ * Material Kit - v2.0.6
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/material-kit
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+   Licensed under MIT (https://github.com/creativetimofficial/material-kit/blob/master/LICENSE.md)
+
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Hello, world!</title>
+  <!-- Required meta tags -->
+  {%include meta.html%}
+  <!-- CSS -->
+  {%include css.html%}
+</head>
+
+<body>
+  {%include nav.html%}
+  <div class="page-header header-filter" data-parallax="true" style="background-image: url('/assets/img/bg3.jpg')">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <div class="brand text-center">
+            <h1>{{page.title}}</h1>
+            {% if page.description %}
+            <h3 class="title text-center">{{page.description}}</h3>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main main-raised">
+    <div class="container">
+        <div class="section section-text">
+      {{content}}
+      </div>
+    </div>
+  </div>
+    <!-- JS -->
+  {%include js.html%}
+  {%include footer.html%}
+</body>
+
+</html>
