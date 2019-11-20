@@ -9525,8 +9525,10 @@ button:focus {
 .btn,
 .btn.btn-default {
   color: #fff;
-  background-color: #999999;
-  border-color: #999999;
+  /* background-color: #999999;
+  border-color: #999999; */
+  background-color: #52596B;
+  border-color: #52596B;
   box-shadow: 0 2px 2px 0 rgba(153, 153, 153, 0.14), 0 3px 1px -2px rgba(153, 153, 153, 0.2), 0 1px 5px 0 rgba(153, 153, 153, 0.12);
 }
 
@@ -10917,7 +10919,8 @@ fieldset[disabled][disabled] .btn-group-raised .btn,
 
 body {
   background-color: #eee;
-  color: #3C4858;
+  /* color: #3C4858; */
+  color: #000;
   font-weight: 300;
 }
 
@@ -11785,7 +11788,8 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
   height: 15px;
   width: 15px;
   border-radius: 100%;
-  background-color: #9c27b0;
+/*   background-color: #52596B;*/
+  background-color: #ff9800;
   -webkit-transform: scale3d(0, 0, 0);
   -moz-transform: scale3d(0, 0, 0);
   -o-transform: scale3d(0, 0, 0);
@@ -11806,11 +11810,13 @@ fieldset[disabled] .form-group.is-focused .form-check .form-check-label {
 }
 
 .form-check .form-check-input:checked~.check {
-  background-color: #9c27b0;
+  /*background-color: #9c27b0;*/
+  background-color: #ff9800;
 }
 
 .form-check .form-check-input:checked~.circle {
-  border-color: #9c27b0;
+  /* border-color: #9c27b0; */
+  border-color: #ff9800;
 }
 
 .form-check .form-check-input:checked .check:before {
@@ -14470,8 +14476,10 @@ textarea {
 .pagination>.page-item.active>span,
 .pagination>.page-item.active>span:focus,
 .pagination>.page-item.active>span:hover {
-  background-color: #9c27b0;
-  border-color: #9c27b0;
+/*   background-color: #9c27b0;
+  border-color: #9c27b0; */
+  background-color: #ffca16;
+  border-color: #ffca16;
   color: #fff;
   box-shadow: 0 4px 5px 0 rgba(156, 39, 176, 0.14), 0 1px 10px 0 rgba(156, 39, 176, 0.12), 0 2px 4px -1px rgba(156, 39, 176, 0.2);
 }

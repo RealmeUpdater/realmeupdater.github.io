@@ -6,6 +6,9 @@
   ],
   "description": "A Badass Bootstrap UI Kit based on Material Design",
   "main": "index.html",
+  "dependencies": {
+    "select2": "~4.0"
+  },
   "keywords": [
     "material",
     "design",

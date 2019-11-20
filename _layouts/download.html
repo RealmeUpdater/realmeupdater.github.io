@@ -24,6 +24,12 @@
   {%include css.html%}
   <!-- JS -->
   {%include js.html%}
+  <!-- DataTables-->
+  <script type="text/javascript" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/r-2.2.3/datatables.min.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/file-size.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/plug-ins/1.10.20/sorting/date-eu.js"></script>
+  <!-- downloads page JS -->
+  <script src="/assets/js/site/downloads.js" type="text/javascript"></script>
 </head>
 
 <body class="sidebar-collapse">
@@ -32,10 +38,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-8 ml-auto mr-auto text-center">
-          <h1 class="title">{{page.title}}</h1>
+          <h1>{{page.title}}</h1>
           {% if page.description %}
           <h4 class="title text-center">{{page.description}}</h3>
-            {% endif %}
+          {% endif %}
         </div>
       </div>
     </div>

@@ -1,0 +1,61 @@
+---
+title: $device Latest Updates Downloads
+layout: download
+permalink: /downloads/$codename/
+---
+<script>
+    $(document).ready(function () {
+        loadLatest("$region/$codename");
+    });
+</script>
+
+{%include telegram.html%}
+
+<div class="col-12 mx-auto">
+    <h3 class="title bg-light p-2 rounded">Latest Official ROM for $device</h3>
+    <h4>This page shows the latest downloads only. If you're looking for old releases check
+        <a href="/archive/$codename/">the archive.</a></h4>
+    <p><i>Note: </i>All files listed here are official untouched ROMs.
+        It's not owned, modified or edited by Realme Updater.</p><br>
+    <ul class="list-unstyled">
+        <li>
+            <h5><b>Device: </b><span id="device"></span></h5>
+        </li>
+        <li>
+            <h5><b>Codename: </b><span id="codename"></span></h5>
+        </li>
+        <li>
+            <h5><b>Region: </b><span id="region"></span></h5>
+        </li>
+        <li>
+            <h5><b>System: </b><span id="system"></span></h5>
+        </li>
+        <li>
+            <h5><b>Version: </b><span id="version"></span></h5>
+        </li>
+        <li>
+            <h5><b>Size: </b><span id="size"></span></h5>
+        </li>
+        <li>
+            <h5><b>Release Date: </b><span id="date"></span></h5>
+        </li>
+        <li>
+            <h5><b>Package Name: </b><span id="filename" class="text-danger"></span></h5>
+        </li>
+        <li>
+            <h5><b>MD5: </b><span id="md5" class="text-muted"></span></h5>
+        </li>
+        <li>
+            <h5><b>Link: </b><button type="button" id="download" class="btn btn-warning btn-sm">
+                    <i class="material-icons">file_download</i>Download</button>
+            </h5>
+        </li>
+        <li>
+            <h5><b>Changelog: </b><a href="#changelog" data-toggle="collapse" role="button" aria-expanded="false"
+                    aria-controls="changelog"><i class="material-icons">expand_more</i>Expand</a></h5>
+            <div class="collapse" id="changelog">
+                <p id="changelog_text"></p>
+            </div>
+        </li>
+    </ul>
+</div>

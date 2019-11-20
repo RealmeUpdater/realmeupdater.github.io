@@ -1,0 +1,199 @@
+---
+layout: basic
+---
+<div class="page-header header-filter" data-parallax="true" style="background-image: url('/img/wall.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1 class="title">Realme Updater</h1>
+        <h4>The best place to get Realme android devices official stock ROM, firmware, and updates.<br>
+          Here you'll find every single update for all Realme devices. For free and without annoying ads!</h4>
+        <br>
+        <button type="button" onclick="scrollToDownload()" class="btn btn-warning btn-raised btn-lg"
+          data-toggle="tooltip" data-placement="bottom" title="Pick your realme device" data-container="body"><i
+            class="material-icons">smartphone</i>Select your device</button>
+        <button type="button" onclick="navigate('/downloads/latest/')" class="btn btn-lg" data-toggle="tooltip"
+          data-placement="bottom" title="Explore latest available updates" data-container="body"><i
+            class="material-icons">file_download</i>Latest Downloads</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="main">
+  <div class="container">
+    <div class="section text-center">
+      <div class="row">
+        <div class="col-md-8 ml-auto mr-auto">
+          <h2 class="title">What's Realme Updater?</h2>
+          <h5 class="description" style="color: #3C4858;">An open-source automated script, that tracks Realme devices'
+            official ROMs. It supports Global, Europe, India, Russia, and China regions.
+            Here you'll find the latest updates for your device along with all old versions archive!</h5>
+        </div>
+      </div>
+      <div class="features">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-success">
+                <i class="fa fa-check-square"></i>
+              </div>
+              <h4 class="info-title">Trusted</h4>
+              <h6>Updates are driven via the official channels, all links are from the official download servers.
+                Nothing modded or modified.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-warning">
+                <i class="fa fa-bolt"></i>
+              </div>
+              <h4 class="info-title">Fast</h4>
+              <h6>Realme Updater is automatically updated every six hours in order to be up-to-date all the time.
+                Powered by Linux and Python.</h6>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="info">
+              <div class="icon icon-rose">
+                <i class="fa fa-archive"></i>
+              </div>
+              <h4 class="info-title">All-in-one</h4>
+              <h6>Are you looking for an older version of your device ROM? You'll find it here! All old releases are
+                being archived.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section section-downloads" style="padding-top: 0px;">
+      <!--       <div class="card-group">
+        <div class="card card-body text-center" style="flex-grow: 2">
+        </div>
+        <div class="card card-body">
+          <img src="/img/logo.png" class="img-fluid" alt="image ad">
+        </div>
+      </div> -->
+      <div id="navigation-pills">
+        <div class="row">
+          <div class="col-md-3">
+            <ul class="nav nav-pills nav-pills-icons flex-column nav-pills-warning" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" href="#by-device" role="tab" data-toggle="tab">
+                  <i class="material-icons">android</i> By device
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#by-region" role="tab" data-toggle="tab">
+                  <i class="material-icons">language</i> By region
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-8">
+            <div class="tab-content text-center">
+              <div class="tab-pane active" id="by-device">
+                <h3 data-ref="DownloadLatest">Download latest official stock ROM for realme devices</h3>
+                <p data-ref="DownloadInstruction">Select the download type first, then select your device from the
+                  drop-down menu. You can search devices by name or codename.
+                </p>
+                <br />
+                <form id="DownloadForm" name="DownloadForm">
+                  <div class="row">
+                    <div class="col-12" style="margin: 5px">
+                      <select name="device" id="device" class="device" style="width: 50%">
+                        <option></option>
+                      </select>
+                    </div>
+                    <div class="col-12" style="margin: 5px;">
+                      <div class="form-check">
+                        <label class="form-check-label" style="margin-right: 5px;">
+                          <input class="form-check-input" type="radio" name="choose" id="latest" value="latest" checked>
+                          Latest
+                          <span class="circle">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="choose" id="archive" value="archive">
+                          Archive
+                          <span class="circle">
+                            <span class="check"></span>
+                          </span>
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-12" style="margin: 5px;">
+                      <button type="submit" class="btn" onclick="return choicesParser()"
+                        data-ref="download">Download</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+              <div class="tab-pane" id="by-region">
+                <h3 data-ref="DownloadRegion">Download latest realme official stock ROM by region</h3>
+                <br>
+                <form id="RegionForm" name="RegionForm">
+                  <div class="row">
+                    <div class="col-12" style="margin: 5px">
+                      <select name="region" id="region" class="region" style="width: 50%">
+                        <option></option>
+                      </select>
+                    </div>
+                    <div class="col-12" style="margin: 5px;">
+                      <button type="submit" class="btn" onclick="return choicesParser()"
+                        data-ref="download">Download</button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Select2 -->
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js" type="text/javascript"></script>
+  <!-- index page JS -->
+  <script src="/assets/js/site/index.js" type="text/javascript"></script>
+  <div class="col-12 text-center">
+    <div class="sharing-area" style="margin: 0px; padding-bottom: 50px;">
+      <a id="twitter" href="#"
+        onclick="(window.open('http\://twitter.com/share?url=https://realmeupdater.github.io&hashtags=RealmeUpdater', 'pop'));return false;"
+        target="_blank" class="btn btn-raised btn-twitter btn-lg sharrre">
+        <i class="fa fa-twitter"></i> Tweet
+      </a>
+      <a id="facebook" href="#"
+        onclick="(window.open('https\://www.facebook.com/sharer/sharer.php?u=https://realmeupdater.github.io', 'pop'));return false;"
+        target="_blank" class="btn btn-raised btn-facebook btn-lg sharrre">
+        <i class="fa fa-facebook-square"></i> Share
+      </a>
+      <a id="github" href="https://github.com/RealmeUpdater/" target="_blank" class="btn btn-raised btn-github btn-lg">
+        <i class="fa fa-github"></i> Star
+      </a>
+      <a id="telegram" href="https://t.me/RealmeUpdatesTracker" target="_blank" class="btn btn-raised btn-lg"
+        style="background-color: #1f97c9;">
+        <i class="fa fa-telegram"></i> Subscribe
+      </a>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="NoDeviceError" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">No Device/Region Selected</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <i class="material-icons">clear</i>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Seems you didn't select a device or a region, please do!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger btn-link" data-dismiss="modal">Okay</button>
+      </div>
+    </div>
+  </div>
+</div>
