@@ -84,7 +84,7 @@ function loadLatestDownloads(path) {
                     { data: 'region',
                     className: "all",
                     "render": function (data) {
-                        return '<a href="/downloads/latest/' + data + '/" target="_blank">' + data + '</a>';
+                        return '<a href="/downloads/latest/' + data + '" target="_blank">' + data + '</a>';
                     }
                 },
                     { data: 'system', className: "min-mobile-l" },
@@ -165,7 +165,7 @@ function loadLatest(codename) {
             device = item.codename + '_' + index
             downloads_html += '<div class="card card-body"><ul class=list-unstyled><li><h5><b>Device: </b>' + item.device +
                 '</h5><li><h5><b>Codename: </b>' + item.codename + '</h5><li><h5><b>Region: </b>' +
-                '<a href="/downloads/latest/' + item.region + '/" target="_blank">' + item.region + '</a>' +
+                '<a href="/downloads/latest/' + item.region + '" target="_blank">' + item.region + '</a>' +
                 '</h5><li><h5><b>System: </b>' + item.system + '</h5><li><h5><b>Version: </b>' + item.version +
                 '</h5><li><h5><b>Size: </b>' + item.size + '</h5><li><h5><b>Release Date: </b>' + item.date +
                 '</h5><li><h5><b>Package Name: </b><span id=filename class=text-danger>' + item.download.split('/').slice(-1).join() +
