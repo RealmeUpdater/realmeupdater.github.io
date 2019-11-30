@@ -8,7 +8,7 @@ permalink: /:categories/:title/
 repository: RealmeUpdater/realmeupdater.github.io
 author: yshalsager
 github_username: yshalsager
-url: "https://realmeupdater.github.io"
+url: "https://realmeupdater.com"
 plugins:
   - jekyll-feed
   - jekyll-sitemap

@@ -5,14 +5,14 @@ permalink: /privacy/
 ---
 <h1>Privacy Policy</h1>
 <p>Effective date: November 20, 2019</p>
-<p>Realme Updater ("us", "we", or "our") operates the https://realmeupdater.github.io website
+<p>Realme Updater ("us", "we", or "our") operates the https://realmeupdater.com website
     (hereinafter referred to as the "Service").</p>
 <p>This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our
     Service and the choices you have associated with that data.</p>
 <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of
     information in accordance with this policy. Unless otherwise defined in this Privacy Policy, the terms used in this
     Privacy Policy have the same meanings as in our Terms and Conditions, accessible from
-    https://realmeupdater.github.io</p>
+    https://realmeupdater.com</p>
 <h2>Information Collection And Use</h2>
 <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
 <h3>Types of Data Collected</h3>
@@ -100,14 +100,14 @@ permalink: /privacy/
         </p>
         <p> These third-party ad servers or ad networks use technology in their respective advertisements and links that
             appear
-            on https://realmeupdater.github.io and which are sent directly to your browser. They automatically receive
+            on https://realmeupdater.com and which are sent directly to your browser. They automatically receive
             your IP
             address when this occurs. Other technologies (such as cookies, JavaScript, or Web Beacons) may also be used
             by our
             site's third-party ad networks to measure the effectiveness of their advertising campaigns and/or to
             personalize the
             advertising content that you see on the site. </p>
-        <p> https://realmeupdater.github.io has no access to or control over these cookies that are used by
+        <p> https://realmeupdater.com has no access to or control over these cookies that are used by
             third-party
             advertisers. </p>
     </li>
