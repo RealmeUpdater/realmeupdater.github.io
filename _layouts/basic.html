@@ -16,7 +16,11 @@
 <html lang="en">
 
 <head>
+  {% if page.title == site.name %}
+  <title>{{site.name}}</title>
+  {%else %}
   <title>{{page.title}} | {{site.name}}</title>
+  {% endif %}
   <!-- Required meta tags -->
   {%include meta.html%}
   <!-- CSS -->
