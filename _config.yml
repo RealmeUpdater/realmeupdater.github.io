@@ -18,3 +18,7 @@ members:
 
 exclude:
     - pages_generator/
+    - pages/downloads/latest_old_template
+    - pages/archive/archive.template
+    - pages/downloads/latest.template
+    - pages/downloads/region.template
