@@ -5,7 +5,7 @@ permalink: /downloads/latest/
 ---
 
 ### Latest Official ROMs for all Realme devices
-##### This page shows the latest downloads only. If you're looking for old releases check [the archive](/archive/).
+##### This page shows the latest downloads only. If you're looking for old releases check [the archive](/downloads/archive/).
 
 *Note*: All files listed here are official untouched ROMs. It's not owned, modified or edited by Realme Updater..
 
