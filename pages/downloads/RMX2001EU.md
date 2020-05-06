@@ -1,20 +1,20 @@
 ---
-title: Realme 6/Realme 5s/Realme 5/Realme X2 Pro Latest Updates Downloads
+title: Realme 6 Latest Updates Downloads
 layout: download
-permalink: /downloads/latest//
+permalink: /downloads/latest/RMX2001EU/
 ---
 <script>
     $(document).ready(function () {
-        loadLatest("");
+        loadLatest("RMX2001EU");
     });
 </script>
 
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme 6/Realme 5s/Realme 5/Realme X2 Pro</h3>
+    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme 6</h3>
     <h4>This page shows the latest downloads only. If you're looking for old releases check
-        <a href="/downloads/archive//">the archive.</a></h4>
+        <a href="/downloads/archive/RMX2001EU/">the archive.</a></h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
         It's not owned, modified or edited by Realme Updater.</p>
     <div id="downloads">
