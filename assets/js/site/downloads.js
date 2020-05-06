@@ -10,7 +10,7 @@ function loadSupportedDevices() {
             "order": [[0, "asc"]],
             "ajax": {
                 "type": "GET",
-                "url": 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/devices.yml',
+                "url": 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/devices.yml',
                 converters: {
                     'text yaml': function (result) {
                         return jsyaml.load(result);
@@ -51,7 +51,7 @@ function loadLatestDownloads(path) {
         function fetchData() {
             $.when(
                 $.ajax({
-                    url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/' + path + '.yml',
+                    url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/' + path + '.yml',
                     async: true,
                     converters: {
                         'text yaml': function (result) {
@@ -108,7 +108,7 @@ function loadLatestDownloads(path) {
 function loadLatestFrom(path) {
     $.when(
         $.ajax({
-            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/' + path + '.yml',
+            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/' + path + '.yml',
             async: true,
             converters: {
                 'text yaml': function (result) {
@@ -145,7 +145,7 @@ function loadLatest(codename) {
     function fetchData() {
         $.when(
             $.ajax({
-                url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/latest.yml',
+                url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/latest.yml',
                 async: true,
                 converters: {
                     'text yaml': function (result) {
@@ -207,7 +207,7 @@ function loadArchive(device) {
             });
         }
         function fetchData() {
-            var url = 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/';
+            var url = 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/';
             $.when(
                 $.ajax({
                     url: url + 'devices.yml',

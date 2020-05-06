@@ -43,7 +43,7 @@ def generate_regions():
     Generate available regions pages
     """
     for region in list(REGIONS.values()):
-        template = REGION_TEMPLATE.replace('$region', region)
+        template = REGION_TEMPLATE.replace('$region', region.replace('_', ' '))
         with open(f"../pages/downloads/{region}.md", "w") as output:
             output.write(template)
 

@@ -15,7 +15,7 @@ var devicesList = [];
 $(document).ready(function () {
     $.when(
         $.ajax({
-            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/devices.yml',
+            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/devices.yml',
             async: true,
             converters: {
                 'text yaml': function (result) {
@@ -40,7 +40,7 @@ var regionsList = [];
 $(document).ready(function () {
     $.when(
         $.ajax({
-            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/regions.yml',
+            url: 'https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/master/data/regions.yml',
             async: true,
             converters: {
                 'text yaml': function (result) {
