@@ -80,13 +80,20 @@ function loadLatestDownloads(path) {
                 ],
                 columns: [
                     { data: 'device', className: "all" },
-                    { data: 'codename', className: "min-mobile-l" },
-                    { data: 'region',
-                    className: "all",
-                    "render": function (data) {
-                        return '<a href="/downloads/latest/' + data + '" target="_blank">' + data + '</a>';
-                    }
-                },
+                    {
+                        data: 'codename',
+                        className: "min-mobile-l",
+                        "render": function (data) {
+                            return '<a href="/downloads/latest/' + data + '" target="_blank">' + data + '</a>';
+                        }
+                    },
+                    {
+                        data: 'region',
+                        className: "all",
+                        "render": function (data) {
+                            return '<a href="/downloads/latest/' + data + '" target="_blank">' + data + '</a>';
+                        }
+                    },
                     { data: 'system', className: "min-mobile-l" },
                     { data: 'version', className: "all" },
                     {
@@ -163,14 +170,17 @@ function loadLatest(codename) {
         downloads_html = "";
         downloads.forEach(function (item, index) {
             device = item.codename + '_' + index
-            downloads_html += '<div class="card card-body"><ul class=list-unstyled><li><h5><b>Device: </b>' + item.device +
-                '</h5><li><h5><b>Codename: </b>' + item.codename + '</h5><li><h5><b>Region: </b>' +
-                '<a href="/downloads/latest/' + item.region + '" target="_blank">' + item.region + '</a>' +
-                '</h5><li><h5><b>System: </b>' + item.system + '</h5><li><h5><b>Version: </b>' + item.version +
-                '</h5><li><h5><b>Size: </b>' + item.size + '</h5><li><h5><b>Release Date: </b>' + item.date +
-                '</h5><li><h5><b>Package Name: </b><span id=filename class=text-danger>' + item.download.split('/').slice(-1).join() +
-                '</span></h5><li><h5><b>MD5: </b><span id=md5 class=text-muted>' + item.md5 +
-                '</span></h5><li><h5><b>Link: </b><button type="button" id="download" class="btn btn-warning btn-sm" onclick="openInTab(\'' +
+            downloads_html += '<div class="card card-body"><ul class=list-unstyled>' +
+                '<li><h5><b>Device: </b>' + item.device + '</h5><li>' +
+                '<h5><b>Codename: </b> <a href="/downloads/latest/' + item.codename + '" target="_blank">' + item.codename + '</a> </h5>'
+                + '<li><h5><b>Region: </b> <a href="/downloads/latest/' + item.region + '" target="_blank">' + item.region + '</a> </h5>'
+                + '<li><h5><b>System: </b>' + item.system + '</h5>' +
+                '<li><h5><b>Version: </b>' + item.version + '</h5>' +
+                '<li><h5><b>Size: </b>' + item.size + '</h5>' +
+                '<li><h5><b>Release Date: </b>' + item.date + '</h5>' +
+                '<li><h5><b>Package Name: </b><span id=filename class=text-danger>' + item.download.split('/').slice(-1).join() + '</span></h5>' +
+                '<li><h5><b>MD5: </b><span id=md5 class=text-muted>' + item.md5 + '</span></h5>' +
+                '<li><h5><b>Link: </b><button type="button" id="download" class="btn btn-warning btn-sm" onclick="openInTab(\'' +
                 item.download + '\')">' + '<i class=material-icons>file_download</i>Download</button></h5></li>' +
                 '<li><h5><b>Changelog: </b><a href="#' + device + '_changelog" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="' +
                 device + '_changelog"><i class="material-icons">expand_more</i>Expand</a></h5><div class="collapse" id="' +
@@ -249,7 +259,13 @@ function loadArchive(device) {
                         defaultContent: 'Device',
                         className: "all"
                     },
-                    { data: 'codename', className: "min-mobile-l" },
+                    {
+                        data: 'codename',
+                        className: "min-mobile-l",
+                        "render": function (data) {
+                            return '<a href="/downloads/latest/' + data + '" target="_blank">' + data + '</a>';
+                        }
+                    },
                     { data: 'version', className: "all" },
                     {
                         data: 'download',
