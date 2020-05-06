@@ -50,8 +50,8 @@ $(document).ready(function () {
             dataType: 'yaml'
         })
     ).done(function (regions) {
-        Array.from(regions).forEach(function (item) {
-            regionsList.push({ text: item, id: item });
+        Object.entries(regions).forEach(function ([region_id, region]) {
+            regionsList.push({ text: region.replace("_", " ") + ' (' + region_id + ')', id: region });
         }),
             $(".region").select2({
                 placeholder: "- Region -",
