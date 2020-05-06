@@ -1,10 +1,10 @@
 ---
-title: Realme Latest Saudi_Arabia Updates Downloads
+title: Realme Latest Saudi Arabia Updates Downloads
 layout: download
-permalink: /downloads/latest/Saudi_Arabia
+permalink: /downloads/latest/Saudi Arabia
 ---
 
-### Latest Official ROMs for all Realme Saudi_Arabia devices
+### Latest Official ROMs for all Realme Saudi Arabia devices
 ##### This page shows the latest downloads only. If you're looking for old releases check [the archive](/downloads/archive/).
 
 *Note*: All files listed here are official untouched ROMs. It's not owned, modified or edited by Realme Updater..
@@ -25,6 +25,6 @@ permalink: /downloads/latest/Saudi_Arabia
                 <th>Date</th>
             </tr>
         </thead>
-        <script>loadLatestDownloads("Saudi_Arabia/Saudi_Arabia")</script>
+        <script>loadLatestDownloads("Saudi Arabia/Saudi Arabia")</script>
     </table>
 </div>
