@@ -4,7 +4,7 @@ layout: single
 permalink: /faq/
 ---
 * ```Q:``` What is Realme Updater?
-* ```A:``` An open-source automated script, that tracks Realme devices' official ROMs. It supports Global, Europe, India, Russia, and China regions.
+* ```A:``` An open-source automated script, that tracks Realme devices' official ROMs. It supports China, Europe, India, Russia, Indonesia, Iraq, Pakistan, Spain. Turkey, UAE and Vietnam regions.
 
 * ```Q:``` Is this website official?
 * ```A:``` This website isn't official by Realme company, it's a communtiy open-source project.

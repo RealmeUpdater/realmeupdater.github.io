@@ -51,7 +51,7 @@ $(document).ready(function () {
         })
     ).done(function (regions) {
         Object.entries(regions).forEach(function ([region_id, region]) {
-            regionsList.push({ text: region.replace("_", " ") + ' (' + region_id + ')', id: region });
+            regionsList.push({ text: region + ' (' + region_id + ')', id: region });
         }),
             $(".region").select2({
                 placeholder: "- Region -",

@@ -11,7 +11,7 @@ Realme Updater is a community project, started in November 2019, aims to be the 
 
 It's an open-source automated script, that tracks Realme devices' official ROMs.
 
-It supports Global, Europe, India, Russia, and China regions.
+It supports all regions that Realme is available in.
 
 Here you'll find the latest updates for your device along with all old versions archive!
 
