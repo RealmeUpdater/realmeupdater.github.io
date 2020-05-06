@@ -5,9 +5,9 @@ import yaml
 from requests import get
 
 NAMES = yaml.load(get('https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/'
-                      'master/devices.yml').text, Loader=yaml.FullLoader)
+                      'master/data/devices.yml').text, Loader=yaml.FullLoader)
 REGIONS = yaml.load(get('https://raw.githubusercontent.com/androidtrackers/realme-updates-tracker/'
-                        'master/regions.yml').text, Loader=yaml.FullLoader)
+                        'master/data/regions.yml').text, Loader=yaml.FullLoader)
 with open("../pages/downloads/latest.template", "r") as latest_template:
     LATEST_TEMPLATE = latest_template.read()
 with open("../pages/archive/archive.template", "r") as archive_template:
@@ -42,7 +42,7 @@ def generate_regions():
     """
     Generate available regions pages
     """
-    for region in REGIONS:
+    for region in list(REGIONS.values()):
         template = REGION_TEMPLATE.replace('$region', region)
         with open(f"../pages/downloads/{region}.md", "w") as output:
             output.write(template)
