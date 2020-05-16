@@ -1,15 +1,15 @@
 ---
-title: Realme 5s/Realme 5 Updates Archive
+title: Realme 6i Updates Archive
 layout: download
-permalink: /downloads/archive/RMX1911EX/
+permalink: /downloads/archive/RMX2040EU/
 ---
 
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 5s/Realme 5</h3>
+    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 6i</h3>
     <h4>This page shows all available downloads. If you're looking for the latest releases check
-        <a href="/downloads/latest/RMX1911EX/">Here</a>.</h4>
+        <a href="/downloads/latest/RMX2040EU/">Here</a>.</h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
         It's not owned, modified or edited by Realme Updater.</p>
     <div class="table-responsive-md" id="table-wrapper">
@@ -22,7 +22,7 @@ permalink: /downloads/archive/RMX1911EX/
                     <th>Link</th>
                 </tr>
             </thead>
-            <script>loadArchive("RMX1911EX")</script>
+            <script>loadArchive("RMX2040EU")</script>
         </table>
     </div>
 </div>
