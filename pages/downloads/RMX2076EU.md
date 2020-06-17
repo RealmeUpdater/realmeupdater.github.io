@@ -1,5 +1,5 @@
 ---
-title: Realme X50 Pro 5G Latest Updates Downloads
+title: Realme X50 Pro 5G/Realme X50 Pro Latest Updates Downloads
 layout: download
 permalink: /downloads/latest/RMX2076EU/
 ---
@@ -12,7 +12,7 @@ permalink: /downloads/latest/RMX2076EU/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme X50 Pro 5G</h3>
+    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme X50 Pro 5G/Realme X50 Pro</h3>
     <h4>This page shows the latest downloads only. If you're looking for old releases check
         <a href="/downloads/archive/RMX2076EU/">the archive.</a></h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
