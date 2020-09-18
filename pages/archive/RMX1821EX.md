@@ -1,5 +1,5 @@
 ---
-title: Realme 3/Realme 3i Updates Archive
+title: Realme 3i/Realme 3 Updates Archive
 layout: download
 permalink: /downloads/archive/RMX1821EX/
 ---
@@ -7,7 +7,7 @@ permalink: /downloads/archive/RMX1821EX/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 3/Realme 3i</h3>
+    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 3i/Realme 3</h3>
     <h4>This page shows all available downloads. If you're looking for the latest releases check
         <a href="/downloads/latest/RMX1821EX/">Here</a>.</h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
