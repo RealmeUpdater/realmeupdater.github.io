@@ -1,5 +1,5 @@
 ---
-title: Realme 5s/Realme 5 Updates Archive
+title: Realme 5s/Realme 5/Realme 5i Updates Archive
 layout: download
 permalink: /downloads/archive/RMX1911EX/
 ---
@@ -7,7 +7,7 @@ permalink: /downloads/archive/RMX1911EX/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 5s/Realme 5</h3>
+    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 5s/Realme 5/Realme 5i</h3>
     <h4>This page shows all available downloads. If you're looking for the latest releases check
         <a href="/downloads/latest/RMX1911EX/">Here</a>.</h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
