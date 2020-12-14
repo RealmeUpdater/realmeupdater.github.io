@@ -1,5 +1,5 @@
 ---
-title: Realme C12/Realme C15 Latest Updates Downloads
+title: Realme 7 Pro Latest Updates Downloads
 layout: download
 permalink: /downloads/latest/Unknown/
 ---
@@ -12,7 +12,7 @@ permalink: /downloads/latest/Unknown/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme C12/Realme C15</h3>
+    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme 7 Pro</h3>
     <h4>This page shows the latest downloads only. If you're looking for old releases check
         <a href="/downloads/archive/Unknown/">the archive.</a></h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
