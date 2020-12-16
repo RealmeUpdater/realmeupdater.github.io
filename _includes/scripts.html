@@ -23,6 +23,77 @@
     });
 </script>
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 1;</script>
+
+<link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+                "background": "#52596B",
+                "text": "#ffffff"
+            },
+            "button": {
+                "background": "#ffffff",
+                "text": "#222222"
+            }
+        },
+        "theme": "classic",
+        "type": "opt-out",
+        "content": {
+            "message": "This website uses cookies to ensure the best experience while using it.  You may see ads that are less relevant to you. These ads use cookies, but not for personalization. Learn more about how we use cookies.",
+            "href": "/privacy/"
+        },
+        onStatusChange: function (status) {
+            if (this.hasConsented()) {
+                console.log("hasConsented");
+                (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
+                (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
+            }
+            else {
+                console.log("didn't Consented");
+                (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
+                (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+            }
+        },
+    });
+</script>
+<script>
+    function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') {
+                c = c.substring(1);
+            }
+            if (c.indexOf(name) == 0) {
+                return c.substring(name.length, c.length);
+            }
+        }
+        return "";
+    }
+    var cookies_status = getCookie('cookieconsent_status');
+    if (cookies_status) {
+        if (cookies_status == 'allow' || cookies_status == 'dismiss') {
+            (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 0;
+        }
+        else {
+            (adsbygoogle = window.adsbygoogle || []).requestNonPersonalizedAds = 1;
+        }
+        (adsbygoogle = window.adsbygoogle || []).pauseAdRequests = 0;
+        (adsbygoogle = window.adsbygoogle || []).push({
+            google_ad_client: "ca-pub-3257146945160733",
+            enable_page_level_ads: true
+        });
+    }
+
+</script>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-152942494-1"></script>
 <script>
