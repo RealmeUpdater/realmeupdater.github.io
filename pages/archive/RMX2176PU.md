@@ -1,15 +1,15 @@
 ---
-title: Realme 6 Updates Archive
+title: Realme X7 5G Updates Archive
 layout: download
-permalink: /downloads/archive/RMX2001/
+permalink: /downloads/archive/RMX2176PU/
 ---
 
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 6</h3>
+    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme X7 5G</h3>
     <h4>This page shows all available downloads. If you're looking for the latest releases check
-        <a href="/downloads/latest/RMX2001/">Here</a>.</h4>
+        <a href="/downloads/latest/RMX2176PU/">Here</a>.</h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
         It's not owned, modified or edited by Realme Updater.</p>
     <div class="table-responsive-md" id="table-wrapper">
@@ -22,7 +22,7 @@ permalink: /downloads/archive/RMX2001/
                     <th>Link</th>
                 </tr>
             </thead>
-            <script>loadArchive("RMX2001")</script>
+            <script>loadArchive("RMX2176PU")</script>
         </table>
     </div>
 </div>
