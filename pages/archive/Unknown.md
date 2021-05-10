@@ -1,5 +1,5 @@
 ---
-title: Realme 7 Pro Updates Archive
+title: Realme C20 Updates Archive
 layout: download
 permalink: /downloads/archive/Unknown/
 ---
@@ -7,7 +7,7 @@ permalink: /downloads/archive/Unknown/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme 7 Pro</h3>
+    <h3 class="title bg-light p-2 rounded">Realme Official ROMs Archive for Realme C20</h3>
     <h4>This page shows all available downloads. If you're looking for the latest releases check
         <a href="/downloads/latest/Unknown/">Here</a>.</h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
