@@ -1,5 +1,5 @@
 ---
-title: Realme X Latest Updates Downloads
+title: Realme narzo 30 Pro 5G/Realme X Latest Updates Downloads
 layout: download
 permalink: /downloads/latest/RMX1901EX/
 ---
@@ -12,7 +12,7 @@ permalink: /downloads/latest/RMX1901EX/
 {%include telegram.html%}
 
 <div class="col-12 mx-auto">
-    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme X</h3>
+    <h3 class="title bg-light p-2 rounded">Latest Official ROM for Realme narzo 30 Pro 5G/Realme X</h3>
     <h4>This page shows the latest downloads only. If you're looking for old releases check
         <a href="/downloads/archive/RMX1901EX/">the archive.</a></h4>
     <p><i>Note: </i>All files listed here are official untouched ROMs.
