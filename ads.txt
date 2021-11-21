@@ -1,5 +1,4 @@
 google.com, pub-3257146945160733, DIRECT, f08c47fec0942fa0
-
 #VLI
 google.com, pub-3960095709930134, RESELLER, f08c47fec0942fa0
 google.com, pub-8278416939377896, DIRECT, f08c47fec0942fa0
@@ -290,3 +289,4 @@ apacdex.com, 6925, DIRECT
 h12ukltd.com, 6925, DIRECT
 valueimpression.com, 6925, DIRECT
 quantumdex.io, 6925, DIRECT
+#VLI END
