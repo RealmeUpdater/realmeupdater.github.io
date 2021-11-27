@@ -320,7 +320,9 @@ video.unrulymedia.com, 731822025, DIRECT
 advertising.com, 28464, RESELLER
 interdogmedia.com, 6925, DIRECT 
 apacdex.com, 6925, DIRECT 
-h12ukltd.com, 6925, DIRECT
 valueimpression.com, 6925, DIRECT
 quantumdex.io, 6925, DIRECT
+ucfunnel.com, pub-9A29B44776D79BAAF7D239EE4486AB7, DIRECT
+aralego.com, pub-9A29B44776D79BAAF7D239EE4486AB7, DIRECT
+adiiix.com, pub-9A29B44776D79BAAF7D239EE4486AB7, DIRECT
 #VLI END
