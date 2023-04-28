@@ -281,6 +281,12 @@ smartadserver.com, 4467, RESELLER
 google.com, pub-4125454196932019, RESELLER, f08c47fec0942fa0
 yeahmobi.com, 113772, RESELLER
 e-planning.net, 949b688810cb7439, RESELLER, c1ba615865ed87b2
+xapads.com, 139660, DIRECT
+google.com, pub-3990748024667386, DIRECT, f08c47fec0942fa0
+pubmatic.com, 162882, RESELLER, 5d62403b186f2ace
+contextweb.com, 562842, RESELLER, 89ff185a4c4e857c
+freewheel.tv, 1581157, RESELLER
+freewheel.tv, 1581210, RESELLER
 rtbhouse.com, wed0epy3b6Wg3KDMeJ5n, DIRECT
 rubiconproject.com, 24026, RESELLER, 0bfd66d529a55807
 sharethrough.com, cc26d15a, DIRECT, d53b998a7bd4ecd2
